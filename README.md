@@ -2,5 +2,7 @@
 
 
 <code><pre>
-git clone 
+git clone  
 cd 3v7-converter
+python json.py
+<code></pre>
