@@ -33,7 +33,7 @@ Timeline creation (e.g., Plaso)
 <code><pre>
 git clone https://github.com/moon0deva/3v7-converter.git
 cd 3v7-converter
-python json.py
+python3 start.py
 <code></pre>
 
 <code><pre>
