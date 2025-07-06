@@ -18,11 +18,6 @@ Requirements
   - `python-evtx`
   - `xmltodict`
 
-Install dependencies:
-
-bash
-pip install python-evtx xmltodict
-
 Forensics & Reverse Engineering Use
 You can use this output with tools like:
 
@@ -33,6 +28,12 @@ MITRE ATT&CK mapping
 Custom alerting and enrichment
 
 Timeline creation (e.g., Plaso)
+
+<code><pre>
+python -m venv foldername #to create venv 
+source foldername/bin/activate # to activate the venv
+pip install python-evtx xmltodict
+<code></pre>
 
 <code><pre>
 git clone https://github.com/moon0deva/3v7-converter.git
